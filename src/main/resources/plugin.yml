@@ -1,0 +1,21 @@
+name: WonStaff
+version: '${project.version}'
+main: org.won.staff.wonstaff.WonStaff
+api-version: '1.18'
+commands:
+  jp:
+    permission: mod.messages
+  js:
+    permission: mod.messages
+  discord:
+    permission: mod.liens
+  site:
+    permission: mod.liens
+  event:
+    permission: mod.event
+  cm:
+    permission: chat.modo
+  cad:
+    permission: chat.admin
+  gmperm:
+    permission: mod.op
